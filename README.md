@@ -1,2 +1,2 @@
-# Tetris-in-Pygame
+# Tetris Pygame
 Learning Python language
