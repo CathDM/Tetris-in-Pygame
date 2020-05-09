@@ -24,19 +24,34 @@
 #last = phrase[len(phrase)-1]
 #print(phrase[-2])
 #---string slicing with step
-phrase = "Cath is awesome" #15
+#phrase = "Cath is awesome" #15
 #print(phrase[5:7]) #(start:end)
 #print(phrase[8:len(phrase)]) #start:lenght phrase 
 #print(phrase[0:7:2]) #start:lenght of charachters:steps to jump
 #----reversed sliding
+#phrase = "Cath is awesome" #15
 #print(phrase[10:1:-1]) #ewa si ht
 #print(phrase[10:3:-2]) #ea s
 #----partial slicing
+#phrase = "Cath is awesome" #15
 #print(phrase[:6]) #all characters before :s
 #print(phrase[6:]) #all characters after s:
 #print(phrase[:]) #the whole string
 #print(phrase[::-1]) #the hole string in reverse
 #------reverse logic by using intex function
-print(phrase.index("is")) #locate the characterposition
+#phrase = "Cath is awesome" #15
+#print(phrase.index("is")) #locate the characterposition <5>
+#----------input variable
+#name = input("Enter your name: ")
+#age = input("Enter your age: ")
+#print("hello " + name + "! You are " + age)
+#---------calculator
+#num1 = input("Enter a number:")
+#num2 = input("Enter a second number:")
+#result = float(num1) + float(num2) # int (hole numer) - float (decimale)
+#print(result)
+
+#-------//Madlips game
+
 
 
