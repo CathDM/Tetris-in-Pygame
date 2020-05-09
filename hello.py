@@ -26,11 +26,17 @@
 #---string slicing with step
 phrase = "Cath is awesome" #15
 #print(phrase[5:7]) #(start:end)
-#print(phrase[8:len(phrase)])#start:lenght of rest 
-#print(phrase[0:7:2])#start:lenght of charachters:steps to jump
+#print(phrase[8:len(phrase)]) #start:lenght phrase 
+#print(phrase[0:7:2]) #start:lenght of charachters:steps to jump
 #----reversed sliding
-print(phrase[10:1:-1])#ewa si ht
-print(phrase[10:3:-2])#ea s
+#print(phrase[10:1:-1]) #ewa si ht
+#print(phrase[10:3:-2]) #ea s
 #----partial slicing
-print(phrase[:5]) #all characters before :
+#print(phrase[:6]) #all characters before :s
+#print(phrase[6:]) #all characters after s:
+#print(phrase[:]) #the whole string
+#print(phrase[::-1]) #the hole string in reverse
+#------reverse logic by using intex function
+print(phrase.index("is")) #locate the characterposition
+
 
