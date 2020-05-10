@@ -61,3 +61,11 @@
 #print("I love "+ celebrity)
 
 #----------list function
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Peter", "Natalie", "Perice", "Yana","Yana", "Ma-eva", "Cath"]
+#friends.extend(lucky_numbers) #extend : add 2lists together
+#friends.append("Pieter") #append : add at the end of list
+#friends.insert(2, "Flokje") #insert: add at the index position of list
+#friends.remove("Cath") #remove item from index (use clear(): to remove all index items)
+#friends.pop() #removes the last element of the list
+print(friends.count("Yana")) #count how many values in the index with print statement
