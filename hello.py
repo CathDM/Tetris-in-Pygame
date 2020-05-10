@@ -38,20 +38,26 @@
 #print(phrase[6:]) #all characters after s:
 #print(phrase[:]) #the whole string
 #print(phrase[::-1]) #the hole string in reverse
-#------reverse logic by using intex function
+#------reverse logic by using index function
 #phrase = "Cath is awesome" #15
 #print(phrase.index("is")) #locate the characterposition <5>
 #----------input variable
 #name = input("Enter your name: ")
 #age = input("Enter your age: ")
 #print("hello " + name + "! You are " + age)
+
 #---------calculator
 #num1 = input("Enter a number:")
 #num2 = input("Enter a second number:")
 #result = float(num1) + float(num2) # int (hole numer) - float (decimale)
 #print(result)
 
-#-------//Madlips game
+#-------//Madlips game // play with varables
+#color = input("Enter a color: ")
+#plural_noun = input("Enter a Plural noun: ")
+#celebrity = input("Enter a Celebrity: ")
+#print("Roses are "+ color)
+#print(plural_noun +" are blue")
+#print("I love "+ celebrity)
 
-
-
+#----------list function
